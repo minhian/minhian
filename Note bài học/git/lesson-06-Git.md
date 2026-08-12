@@ -96,3 +96,4 @@ Flow: quay về main -> pull code mới nhất -> tạo nhánh từ đó
 `git checkout main` -> chuyển sang nhánh main
 -> `git checkout `-> chuyển qua một nhánh nào đó 
 
+tạo nhánh mới: `git checkout -b` -> -b là để tạo nhánh mới
