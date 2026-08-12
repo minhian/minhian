@@ -72,4 +72,9 @@ Cách đặt tên commit:
  test: add login test 
  fix: correct bug ... 
 
- 
+HEAD -> main: là vị trí đang đứng
+mình sẽ cần phải update code liên tục với nhánh main 
+`git fetch`
+`git pull`
+để kéo code mới nhất từ nhánh main về
+
