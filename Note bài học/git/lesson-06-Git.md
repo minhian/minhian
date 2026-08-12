@@ -29,3 +29,10 @@ B3: chạy `git add`
 - Git add . : thêm tất cả các file đang thay đổi trong project 
 - Git add + tên file hoặc tên folder -> chỉ add file đó 
 
+
+B4: Tạo commit đầu tiên: 
+`git commit -m "nội dung mô tả commit"` 
+
+B5: đặt tên nhánh chính là main (vì github đặt tên nhánh chính là main) 
+`git branch -M` (M = modify) 
+
