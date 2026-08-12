@@ -78,4 +78,21 @@ mình sẽ cần phải update code liên tục với nhánh main
 `git pull`
 để kéo code mới nhất từ nhánh main về
 
-hello world test 123 continue 
+Tóm quần lại: 
+Flow: `Git pull -> Git add . -> git commit -m "abc" -> git push`
+
+`git branch` kiểm tra đang ở nhánh nào 
+
+cách đặt tên nhánh, ko dấu, ko có khoảng trắng
+docs/git-lesson
+feat/product-search
+fix/ 
+test/
+
+trước khi tạo nhánh mới nên quay về main
+lý do: nhánh mới sẽ được tạo ra trên nhánh hiện tại, nên phải quay về main để tạo nhánh từ main ra
+Flow: quay về main -> pull code mới nhất -> tạo nhánh từ đó
+
+`git checkout main` -> chuyển sang nhánh main
+-> `git checkout `-> chuyển qua một nhánh nào đó 
+
