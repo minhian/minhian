@@ -77,4 +77,3 @@ mình sẽ cần phải update code liên tục với nhánh main
 `git fetch`
 `git pull`
 để kéo code mới nhất từ nhánh main về
-
