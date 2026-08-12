@@ -97,3 +97,11 @@ Flow: quay về main -> pull code mới nhất -> tạo nhánh từ đó
 -> `git checkout `-> chuyển qua một nhánh nào đó 
 
 tạo nhánh mới: `git checkout -b` -> -b là để tạo nhánh mới
+
+git add . -> git commit -m "..." -> git push -u origin + tên nhánh cần lấy doc về 
+
+## sau khi code xong ở nhánh mới (main lúc này chưa có code mới) 
+Sử dụng `git merge `
+=> Muốn gộp nhánh khác vào nhánh main thì phải checkout về nhánh main trước 
+
+
