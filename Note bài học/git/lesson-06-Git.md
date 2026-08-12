@@ -34,5 +34,42 @@ B4: Tạo commit đầu tiên:
 `git commit -m "nội dung mô tả commit"` 
 
 B5: đặt tên nhánh chính là main (vì github đặt tên nhánh chính là main) 
-`git branch -M` (M = modify) 
+`git branch -m main`  (m= modify)
 
+B6: gắn folder này với remote repository trên git 
+-> nối git ở local với remote repo để chia sẻ code
+`git remote add origin + đường link remote repo`
+-> sau push (đẩy code) lên repo được gắn link
+ví dụ: git remote add origin https://github.com/meomew-auto/JS_TS_BASIC
+
+B7: push đẩy code 
+lần đầu chưa đẩy code -> ta phải thiết lập upstream cho branch local hiện tại với remote
+`git push -u origin main`
+-u = upstream -> lần đầu tiên phải upstream để cho lần sau github ghi nhớ, ko cần gọi lại nữa
+origin là tên ngắn của repo github mà mình đã gắn link vào 
+
+
+Có nhiều môi trường
+Dev: main -> nhánh này là nhánh chính chạy ổn định -> khi làm việc mình phải tạo ra một nhánh khác để làm việc để không ảnh hưởng đến nhánh chính đang sử dụng -> sau khi code ổn định ở nhánh phụ, sau đó mới merge code vào nhánh chính để bổ sung thêm tính năng 
+UAT: main -> 
+
+Cách đặt tên commit: 
+- khi project có nhiều commit -> cần lịch sử để biết
+ + sửa gì 
+ + ai sửa
+ + thêm tính năng gì
+
+ ví dụ: 
+ add login test 
+ fix login validation 
+ update git lesson 
+ remove locator 
+
+ type + nội dung thay đổi 
+ ví dụ: 
+ docs: update git lesson 
+ feat: add product search flow
+ test: add login test 
+ fix: correct bug ... 
+
+ 
