@@ -98,4 +98,3 @@ Flow: quay về main -> pull code mới nhất -> tạo nhánh từ đó
 
 `git merge` + tên branch cần merge vào main
 
-Edit test
